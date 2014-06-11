@@ -4,7 +4,7 @@
   "description": "socket+angular",
   "main": "index.js",
   "dependencies": {
-    "express": "*",
+    "express": "3.5.0",
     "ejs": "*"
     },
   "scripts": {
