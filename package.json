@@ -1,0 +1,23 @@
+{
+  "name": "technode",
+  "version": "0.0.0",
+  "description": "socket+angular",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:veeking/mean_talk.git"
+  },
+  "author": "veeking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeking/mean_talk/issues"
+  },
+  "homepage": "https://github.com/veeking/mean_talk"
+}
