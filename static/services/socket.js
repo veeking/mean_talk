@@ -4,7 +4,7 @@
    		return {
    		  on : function(eventName,callback){  //callback主要的作用是 接收完事件后进行调用，而且带有参数调用，参数是使事件返回的值
    		  	   socket.on(eventName,function(){
-   		  	   		var args = arguments;   // args -- > evnetName，function(){}
+   		  	   		var args = arguments;   // args -- > eventName，function(){}
    		  	   		$rootScope.$apply(function(){ //  $apply监听并刷新
    		  	   			callback.apply(socket,args);  	
    		  	   		});
